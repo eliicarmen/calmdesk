@@ -1,0 +1,40 @@
+.my-tasks {
+    padding: 24px;
+    max-width: 700px;
+  }
+  
+  .my-tasks h1 { margin-bottom: 20px; }
+  
+  .empty { color: var(--muted); }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    padding: calc(14px * var(--space)) calc(16px * var(--space));
+    margin-bottom: calc(10px * var(--space));
+  }
+  
+  .task-item input {
+    accent-color: var(--primary);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .task-item span:nth-child(2) { flex: 1; }
+  
+  .task-item .done {
+    text-decoration: line-through;
+    color: var(--muted);
+  }

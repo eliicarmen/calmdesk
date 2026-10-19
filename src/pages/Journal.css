@@ -1,0 +1,49 @@
+.journal {
+    padding: 24px;
+    max-width: 700px;
+  }
+  
+  .journal h1 { margin-bottom: 20px; }
+  
+  .journal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .journal-form textarea {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+    color: var(--text);
+    font-family: inherit;
+    resize: vertical;
+    outline: none;
+  }
+  
+  .journal-form textarea:focus { border-color: var(--primary); }
+  
+  .journal-form .save-btn { align-self: flex-start; }
+  
+  .entry {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  
+  .entry-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    color: var(--muted);
+  }
+  
+  .entry p {
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
